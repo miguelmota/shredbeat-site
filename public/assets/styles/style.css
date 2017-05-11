@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #690069;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  background-image: url(../images/grid.png);
+}
+.Main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.Container {
+
+}
+.Header {
+  text-align: center;
+  margin: 40px auto 40px auto;
+}
+.Header h1 {
+  font-family: 'colors_of_autumnregular', cursive;
+  font-size: 80px;
+  margin: 0;
+  color: #1bf4ff;
+  text-shadow: 2px 4px #c100ff;
+  text-transform: uppercase;
+}
+@media (max-width: 700px) {
+  .Header h1 {
+    font-size: 65px;
+  }
+}
+@media (max-width: 400px) {
+  .Header h1 {
+    font-size: 40px;
+  }
+}
+.DownloadButton {
+  display: inline-block;
+  font-family: 'sf_alien_encountersitalic', cursive;
+  font-size: 42px;
+  margin: 0;
+  color: #bf65ff;
+  text-shadow: 2px 4px #6e00ff;
+  cursor: pointer;
+  text-decoration: none;
+  background: #f58aff;
+  padding: 20px;
+  box-shadow: 5px 5px 0 #e000ff;
+  transition: all 0.2s ease-out;
+  margin: 0 0 40px 0;
+}
+.DownloadButton:hover {
+  color: #e365ff;
+  background: #da8aff;
+  box-shadow: 8px 8px 0 #a900ff;
+}
+@media (max-width: 400px) {
+  .DownloadButton {
+    font-size: 32px;
+  }
+}
+.DownloadSection {
+  display: block;
+  margin: 0 0 100px 0;
+  text-align: center;
+}
+.DownloadSection p {
+  display: block;
+  display: block;
+  font-size: 20px;
+  font-family: 'sf_alien_encountersitalic', cursive;
+  color: #ffdaf3;
+}
+.Footer {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #1bf4ff;
+}
+.Footer span {
+  font-family: 'colors_of_autumnregular', cursive;
+}
+.Footer i {
+  margin: 0 10px;
+  color: #569a9e;
+  font-style: normal;
+}
+.Footer a {
+  font-family: 'sf_alien_encountersitalic', cursive;
+  color: #b9ff1b;
+  text-decoration: none;
+}
+.Footer a:hover {
+  text-decoration: underline;
+}
